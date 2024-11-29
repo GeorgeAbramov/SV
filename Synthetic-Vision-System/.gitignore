@@ -1,0 +1,18 @@
+.vscode
+*.exe
+*.pyc
+.vscode\
+.vs\
+.src\DataAggregation\__pycache__\
+*.sqlite
+.vs/Synthetic Vision System/v16/.suo
+*.db
+*.opendb
+/.metadata/
+.Terrain/.classpath
+.Terrain/.project
+\Terrain\.classpath
+\Terrain\.project
+Terrain/.classpath
+.vscode/settings.json
+Terrain/.classpath

@@ -1,0 +1,460 @@
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-bom</artifactId>
+            <version>3.2.3</version>
+            <scope>import</scope>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+
+<dependencies>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-assimp</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-bgfx</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-cuda</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-egl</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-glfw</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-jawt</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-jemalloc</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-libdivide</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-llvm</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-lmdb</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-lz4</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-meow</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nanovg</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nfd</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nuklear</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-odbc</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-openal</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opencl</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opengl</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opengles</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-openvr</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opus</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-par</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-remotery</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-rpmalloc</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-shaderc</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-sse</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-stb</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-tinyexr</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-tinyfd</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-tootle</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-vma</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-vulkan</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-xxhash</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-yoga</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-zstd</artifactId>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-assimp</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-bgfx</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-glfw</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-jemalloc</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-libdivide</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-llvm</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-lmdb</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-lz4</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-meow</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nanovg</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nfd</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-nuklear</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-openal</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opengl</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opengles</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-openvr</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-opus</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-par</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-remotery</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-rpmalloc</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-shaderc</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-sse</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-stb</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-tinyexr</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-tinyfd</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-tootle</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-vma</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-vulkan</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-xxhash</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-yoga</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+<dependency>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-zstd</artifactId>
+    <classifier>natives-macos</classifier>
+    <version>${lwjgl.version}</version>
+    <type>pom</type>
+</dependency>
+</dependencies>
