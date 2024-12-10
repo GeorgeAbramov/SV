@@ -32,7 +32,7 @@ def kalman_xy(x, P, measurement, R,
                       0. 1. 0. 0.'''))
 
 def kalman(x, P, measurement, R, motion, Q, F, H):
-    '''
+    """
     Основная функция фильтра Калмана
     
     Параметры:
@@ -46,7 +46,7 @@ def kalman(x, P, measurement, R, motion, Q, F, H):
     H: функция измерения: position = H*x
 
     Возвращает: обновленные значения для (x, P)
-    '''
+    """
     # ЭТАП КОРРЕКЦИИ - обновление x, P на основе измерения    
     # Вычисление разности между измеренной и предсказанной позицией
     y = np.matrix(measurement).T - H * x
